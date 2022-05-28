@@ -24,3 +24,6 @@
 <p><h1>我的视频索引</h1></p>
 <p><a href="https://hplook233.github.io/videosmenu2021/" target="_blank">2021</a> </p>
 <p><a href="https://hplook233.github.io/videosmenu2022/" target="_blank">2022</a> </p>
+<audio controls>
+ <source src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.mp3" type="audio/mpeg">
+ </audio>
