@@ -10,7 +10,6 @@
  </audio> 
  <embed height="50" width="100" src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.mp3">
   <source src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.mp3" type="audio/mpeg">
-  <source src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.ogg" type="audio/ogg">
   <embed height="50" width="100" src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.mp3">
 </audio>
  <hr>
