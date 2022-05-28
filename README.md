@@ -9,9 +9,9 @@
  <source src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.mp3" type="audio/mpeg">
  </audio> 
  <embed height="50" width="100" src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.mp3">
- <audio controls height="100" width="100">
   <source src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.mp3" type="audio/mpeg">
   <source src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.ogg" type="audio/ogg">
+  <embed height="50" width="100" src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.mp3">
 </audio>
  <hr>
  <p>链接推荐右键打开，手机则长按</p>
