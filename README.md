@@ -1,11 +1,14 @@
-<p><h2>-这是我的主页面，备份页面：https://github.com/hplook233/hplk.github.io 。
-<br>-Here is my main page, backup page: https://github.com/hplook233/hplk.github.io.
-<br>-これが私のメインページ、バックアップページです：https：//github.com/hplook233/hplk.github.io 。
-<br>-여기 내 메인 페이지, 백업 페이지가 있습니다: https://github.com/hplook233/hplk.github.io.<h2></p>
 <p><h2>-这是hplook的测试网站  -This is hplook's test website  -これはhplookのテストウエブサイト -이것은 hplook의 테스트 웹사이트입니다<h2></p>
  <p><a href="https://hplook233.github.io/">主页</a> </p><p><a href="https://hplook233.github.io/hplk.github.io/">备份页</a></p>
 <p>我的头像:</p>
 <p>eeeeeeeeee<img src="https://raw.githubusercontent.com/hplook233/hplk.github.io/master/photos/touxiang.jpg" alt="Pulpit roke" width="160" height="160" alt="我的头像">eeeeeeeeee</p>
+<hr>
+ <p>一些歌曲</p>
+ <p>1.Josh Vietti - A Thousand Miles</p>
+ <audio controls>
+ <source src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.mp3" type="audio/mpeg">
+ </audio> 
+ <hr>
  <p>链接推荐右键打开，手机则长按</p>
 <br>
  <p><a href="https://space.bilibili.com/474005040" target="_blank">我的b站主页</a> </p>
@@ -24,6 +27,4 @@
 <p><h1>我的视频索引</h1></p>
 <p><a href="https://hplook233.github.io/videosmenu2021/" target="_blank">2021</a> </p>
 <p><a href="https://hplook233.github.io/videosmenu2022/" target="_blank">2022</a> </p>
-<audio controls>
- <source src="https://raw.githubusercontent.com/hplook233/hplook233.github.io/main/Josh%20Vietti%20-%20A%20Thousand%20Miles.mp3" type="audio/mpeg">
- </audio>
+
