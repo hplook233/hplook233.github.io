@@ -27,7 +27,8 @@
 <br>
  <p> <a href="https://hplook233.github.io/">本站主页</a> </p>
 <p>视频观看</p>
- <p>1.   <a href="https://hplook233.github.io/penghuvan.html" target="_blank">外♂婆的澎湖湾</a> </p>
+ <p>1.   <a href="https://hplook233.github.io/penghuvan.html">外♂婆的澎湖湾</a> </p>
+ <p>2.   <a href="./sakunlang.html">⚡萨 鸡 朗⚡</a></p>
 <hr>
 <p><h1>我的视频索引</h1></p>
 <p><a href="https://hplook233.github.io/videosmenu2021/" target="_blank">2021</a> </p>
