@@ -1,5 +1,6 @@
-<p><h2>-这是hplook的测试网站  -This is hplook's test website  -これはhplookのテストウエブサイト -이것은 hplook의 테스트 웹사이트입니다<h2></p>
- <p><a href="https://hplook233.github.io/">主页</a> </p><p><a href="https://hplook233.github.io/hplk.github.io/">备份页</a></p>
+<p><h2>-这是hplook的测试网站  -This is hplook's test website  -これはhplookのテストウエブサイト<h2></p>
+<a href="https://github.com/hplook233/hplook233.github.io">github</a>
+<p><a href="https://hplook233.github.io/">主页</a> </p><p><a href="https://hplook233.github.io/hplk.github.io/">备份页</a></p>
  <p><a href="https://hplook233.github.io/jntm/" target="_blank">鸡你太美</a></p>
  <p>我的头像:</p>
 <p><img src="https://raw.githubusercontent.com/hplook233/hplk.github.io/master/photos/touxiang.jpg" alt="Pulpit roke" width="160" height="160" alt="我的头像"></p>
