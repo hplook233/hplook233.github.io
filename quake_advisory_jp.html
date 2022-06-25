@@ -1,0 +1,194 @@
+<html lang="jp"><head>
+    <meta charset="utf-8">
+    <meta name="description" content="気象庁">
+    <meta name="keywords" content="気象庁">
+    <meta name="viewport" content="width=device-width,user-scalable=yes,maximum-scale=2">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="../apple-touch-icon.png">
+    <link href="../jmacss/normalize.css" type="text/css" rel="stylesheet">
+    <link href="../jmacss/layout.css" type="text/css" rel="stylesheet">
+    <link href="../jmacss/layout_sp.css" type="text/css" rel="stylesheet">
+    <link href="../jmacss/quake.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../jmacss/leaflet.css">
+    <script src="../jmacss/leaflet.js"></script>
+    <script src="../jmacss/proj4.js"></script>
+    <title>气象厅 | 地震信息（复制/日本語）</title>
+<style id="__web-inspector-hide-shortcut-style__">
+.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
+{
+    visibility: hidden !important;
+}
+</style></head>
+
+<body>
+<div class="wrap">
+
+<header>
+<div class="inner">
+<h1><img id="icon_jma" src="../jmalogo.gif" alt="气象厅"></h1>
+<div class="language_select">
+<div id="language_select_label" class="language_select_label">语言选择</div>
+<form>
+  <select name="language_select" id="language_select" onchange="onChangeLanguage(value)" style="height: 30px;">
+      <option value="jp"><a href="./quake_advisory_jp.html">日本語</a></option>
+  	<option value="en">English</option>
+  	<option value="cn_zs">简体中文</option>
+  	<option value="cn_zt">繁體中文</option>
+  	<option value="kr">한국어</option>
+  	<option value="es">Español</option>
+  	<option value="pt">Português</option>
+  	<option value="id">Bahasa Indonesia</option>
+  	<option value="vn">Tiếng Việt</option>
+  	<option value="ph">Tagalog</option>
+  	<option value="th">ภาษาไทย</option>
+  	<option value="np">नेपाली भाषा</option>
+  	<option value="kh">ភាសាខ្មែរ</option>
+  	<option value="mm">မြန်မာဘာသာစကား</option>
+  	<option value="mn">Монгол хэл</option>
+  </select>
+</form>
+</div>
+</div>
+</header>
+
+<div id="globalMenuS"><!-- globalMenuS start-->
+<div id="top-head" class="">
+<div id="mobile-head">
+<div id="nav-toggle">
+    <div id="menu_title" class="init-bottom">地震情報</div>
+</div>
+</div>
+<nav id="global-nav">
+<ul>
+<li><a id="tab_home" href="https://www.data.jma.go.jp/multi/index.html?lang=cn_zs">ホーム
+<li><a id="tab_warn" href="https://www.data.jma.go.jp/multi/warn/index.html?lang=cn_zs">気象警報・注意報</a></li>
+<li><a id="tab_yoho" href="https://www.data.jma.go.jp/multi/yoho/index.html?lang=cn_zs">天気予報</a></li>
+<li><a id="tab_cyclon" href="https://www.data.jma.go.jp/multi/cyclone/index.html?lang=cn_zs">台風情報</a></li>
+<li><a id="tab_cloud" target="_blank" href="https://www.jma.go.jp/bosai/multi_nowc/?lang=cn_zs">雨雲の動き</a></li>
+<li><a id="tab_kotan" target="_blank" href="https://www.jma.go.jp/bosai/multi_kaikotan/?lang=cn_zs">今後の雨</a></li>
+<li><a id="tab_sub_landslide" target="_blank" href="https://www.jma.go.jp/bosai/multi_risk/?lang=cn_zs#elements:land">危険度分布 : 土砂災害</a>
+</li><li><a id="tab_sub_inundation" target="_blank" href="https://www.jma.go.jp/bosai/multi_risk/?lang=cn_zs#elements:inund">危険度分布 : 浸水害</a>
+</li><li><a id="tab_sub_flood" target="_blank" href="https://www.jma.go.jp/bosai/multi_risk/?lang=cn_zs#elements:flood">危険度分布 : 洪水</a>
+</li><li><a id="tab_tsunami" href="https://www.data.jma.go.jp/multi/tsunami/index.html?lang=cn_zs">津波警報・注意報</a></li>
+<li><a id="tab_quake" href="https://www.data.jma.go.jp/multi/quake/index.html?lang=cn_zs">地震情報</a></li>
+<li><a id="tab_volcano" href="https://www.data.jma.go.jp/multi/volcano/index.html?lang=cn_zs">噴火警報・予報</a></li>
+</ul>
+</nav>
+</div>
+</div><!-- globalMenuS end-->
+
+<main>
+<div class="inner">
+
+<div class="breadcrumb">
+<ul>
+<li><a id="breadcrumb_home" href="https://www.data.jma.go.jp/multi/index.html?lang=cn_zs">ホーム</a></li>
+<li><a id="breadcrumb_list" href="https://www.data.jma.go.jp/multi/quake/index.html?lang=cn_zs">地震情報</a></li>
+<li id="breadcrumb_advisory">震度の解説</li>
+</ul>
+</div>
+
+<section class="quake_contents">
+
+<p><a href="hplook233.github.io">回到主页</a></p>
+    <h1 id="header">地震情報 : 震度の解説</h1>
+
+<article id="quakelevel_info">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="qukelevel_table">
+  <tbody>
+    <tr>
+      <td id="quake_level0" class="qukelevel_table_level"><span>震度</span> 0</td>
+      <td class="quakeimg_s"><img src="../img_quakelevel0.png" alt=""></td>
+      <td id="quakeinfo_level0" colspan="2" class="quakeinfo01">人は揺れを感じない。</td>
+    </tr>
+    <tr>
+      <td id="quake_level1" class="qukelevel_table_level"><span>震度</span> 1</td>
+      <td class="quakeimg_s"><img src="../img_quakelevel1.png" alt=""></td>
+      <td id="quakeinfo_level1" colspan="2" class="quakeinfo01">屋内にいる人の中には、揺れをわずかに感じる人がいる。</td>
+    </tr>
+    <tr>
+      <td id="quake_level2" class="qukelevel_table_level"><span>震度</span> 2</td>
+      <td class="quakeimg_s"><img src="../img_quakelevel2.png" alt=""></td>
+      <td id="quakeinfo_level2" colspan="2" class="quakeinfo01">屋内にいる人の大半が、揺れを感じる。電灯などのつり下げ物が、わずかに揺れる。</td>
+    </tr>
+    <tr>
+      <td id="quake_level3" class="qukelevel_table_level"><span>震度</span> 3</td>
+      <td class="quakeimg_s"><img src="../img_quakelevel3.png" alt=""></td>
+      <td id="quakeinfo_level3" colspan="2" class="quakeinfo01">屋内にいる人のほとんどが、揺れを感じる。棚にある食器類が音を立てることがある。</td>
+    </tr>
+    <tr>
+      <td id="quake_level4" class="qukelevel_table_level"><span>震度</span> 4</td>
+      <td class="quakeimg_s"><img src="../img_quakelevel4.png" alt=""></td>
+      <td id="quakeinfo_level4" colspan="2" class="quakeinfo02">ほとんどの人が驚く。電灯などのつり下げ物は大きく揺れ、座りの悪い置物が倒れることがある。</td>
+    </tr>
+    <tr>
+      <td id="quake_level5m" class="qukelevel_table_level"><span>震度</span> 5弱</td>
+      <td class="quakeimg_s"><img src="../img_quakelevel5_m.png" alt=""></td>
+      <td id="quakeinfo_level5m" colspan="2" class="quakeinfo02">	大半の人が恐怖を覚え、物につかまりたいと感じる。棚にある食器類、書棚の本が落ちることがある。</td>
+    </tr>
+    <tr>
+      <td id="quake_level5p" class="qukelevel_table_level"><span>震度</span> 5強</td>
+      <td class="quakeimg_s"><img src="../img_quakelevel5_p.png" alt=""></td>
+      <td id="quakeinfo_level5p" colspan="2" class="quakeinfo02">大半の人が、行動に支障を感じる。固定していない家具が倒れることがある。</td>
+    </tr>
+    <tr>
+      <td rowspan="2" id="quake_level6m" class="qukelevel_table_level"><span>震度</span> 6弱</td>
+      <td colspan="2" class="quakeimg_wide"><img src="../img_quakelevel6_m.png" alt=""></td>
+      <td id="quakeinfo_level6m" rowspan="2" class="quakeinfo02 quakeinfo_s">立っていることが困難になる。ドアが開かなくなることがある｡壁のタイルや窓ガラスが破損、落下することがある。</td>
+    </tr>
+    <tr>
+      <td id="img_cap_high6m" class="img_cap">耐震性が高い</td>
+      <td id="img_cap_low6m" class="img_cap">耐震性が低い</td>
+    </tr>
+    <tr>
+      <td rowspan="2" id="quake_level6p" class="qukelevel_table_level"><span>震度</span> 6強</td>
+      <td colspan="2" class="quakeimg_wide"><img src="../img_quakelevel6_p.png" alt=""></td>
+      <td id="quakeinfo_level6p" rowspan="2" class="quakeinfo02 quakeinfo_s">立っていることができず、揺れに翻弄される。固定していない家具のほとんどが移動し、倒れるものが多くなる。</td>
+    </tr>
+    <tr>
+      <td id="img_cap_high6p" class="img_cap">耐震性が高い</td>
+      <td id="img_cap_low6p" class="img_cap">耐震性が低い</td>
+    </tr>
+    <tr>
+      <td rowspan="2" id="quake_level7" class="qukelevel_table_level"><span>烈度</span> 7</td>
+      <td colspan="2" class="quakeimg_wide"><img src="../img_quakelevel7.png" alt=""></td>
+      <td id="quakeinfo_level7" rowspan="2" class="quakeinfo02 quakeinfo_s">固定していない家具のほとんどが移動したり倒れたりし、飛ぶこともある｡</td>
+    </tr>
+    <tr>
+      <td id="img_cap_high7" class="img_cap">耐震性が高い</td>
+      <td id="img_cap_low7" class="img_cap">耐震性が低い</td>
+    </tr>
+  </tbody>
+</table>
+
+
+</article>
+
+</section>
+
+</div>
+</main>
+
+<div id="pagetop" style="display: none;"><a href="#top">topへ</a></div>
+<center>この地図は、国土地理院長の承認を得て、同院発行の電子地図（タイル）を複製したものである。（承認番号　令元情複、第462号）</center>
+
+<footer><!-- footer -->
+<div class="inner">
+<p id="copyright" class="copyright">気象厅 : 3-6-9 Toranomon, Minato City, Tokyo 105-8431, Japan</p>
+</div>
+</footer>
+<!-- /footer -->
+
+
+<script src="../jmacss/jquery.min.js"></script>
+<script src="../jmacss/util.js"></script>
+<script src="../jmacss/common.js"></script>
+<script src="../jmacss/geodetic.js"></script>
+<script src="../jmacss/quake_advisory.js"></script>
+
+</div>
+
+
+</body></html>
