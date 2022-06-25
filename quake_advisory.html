@@ -6,13 +6,13 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="../favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="../apple-touch-icon.png">
-    <link href="../css/normalize.css" type="text/css" rel="stylesheet">
-    <link href="../css/layout.css" type="text/css" rel="stylesheet">
-    <link href="../css/layout_sp.css" type="text/css" rel="stylesheet">
-    <link href="../css/quake.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css">
-    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.5.0/proj4.js"></script>
+    <link href="../jmacss/normalize.css" type="text/css" rel="stylesheet">
+    <link href="../jmacss/layout.css" type="text/css" rel="stylesheet">
+    <link href="../jmacss/layout_sp.css" type="text/css" rel="stylesheet">
+    <link href="../jmacss/quake.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../jmacss/leaflet.css">
+    <script src="../jmacss/leaflet.js"></script>
+    <script src="../jmacss/proj4.js"></script>
     <title>气象厅 | 地震信息</title>
 <style id="__web-inspector-hide-shortcut-style__">
 .__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
@@ -26,7 +26,7 @@
 
 <header>
 <div class="inner">
-<h1><img id="icon_jma" src="../images/common/logo.gif" alt="气象厅"></h1>
+<h1><img id="icon_jma" src="../jmalogo.gif" alt="气象厅"></h1>
 <div class="language_select">
 <div id="language_select_label" class="language_select_label">语言选择</div>
 <form>
@@ -109,32 +109,32 @@
     </tr>
     <tr>
       <td id="quake_level2" class="qukelevel_table_level"><span>烈度</span> 2</td>
-      <td class="quakeimg_s"><img src="../images/quake/img_quakelevel2.png" alt=""></td>
+      <td class="quakeimg_s"><img src="../img_quakelevel2.png" alt=""></td>
       <td id="quakeinfo_level2" colspan="2" class="quakeinfo01">室内大部分人感到摇晃。电灯等悬吊物轻微摇晃。</td>
     </tr>
     <tr>
       <td id="quake_level3" class="qukelevel_table_level"><span>烈度</span> 3</td>
-      <td class="quakeimg_s"><img src="../images/quake/img_quakelevel3.png" alt=""></td>
+      <td class="quakeimg_s"><img src="../img_quakelevel3.png" alt=""></td>
       <td id="quakeinfo_level3" colspan="2" class="quakeinfo01">室内几乎所有人感到摇晃。碗橱里的餐具有的发出声音。</td>
     </tr>
     <tr>
       <td id="quake_level4" class="qukelevel_table_level"><span>烈度</span> 4</td>
-      <td class="quakeimg_s"><img src="../images/quake/img_quakelevel4.png" alt=""></td>
+      <td class="quakeimg_s"><img src="../img_quakelevel4.png" alt=""></td>
       <td id="quakeinfo_level4" colspan="2" class="quakeinfo02">几乎所有人感到害怕。电灯等悬吊物大幅摇晃，底座不稳的物品有的倾倒。</td>
     </tr>
     <tr>
       <td id="quake_level5m" class="qukelevel_table_level"><span>烈度</span> 5-</td>
-      <td class="quakeimg_s"><img src="../images/quake/img_quakelevel5_m.png" alt=""></td>
+      <td class="quakeimg_s"><img src="../img_quakelevel5_m.png" alt=""></td>
       <td id="quakeinfo_level5m" colspan="2" class="quakeinfo02">大部分人感到恐怖，感觉想抓住稳固的物体。碗橱里的餐具、书架上的书籍有的掉落。</td>
     </tr>
     <tr>
       <td id="quake_level5p" class="qukelevel_table_level"><span>烈度</span> 5+</td>
-      <td class="quakeimg_s"><img src="../images/quake/img_quakelevel5_p.png" alt=""></td>
+      <td class="quakeimg_s"><img src="../img_quakelevel5_p.png" alt=""></td>
       <td id="quakeinfo_level5p" colspan="2" class="quakeinfo02">大部分人感到行动不便。未固定的家具有的倾倒。</td>
     </tr>
     <tr>
       <td rowspan="2" id="quake_level6m" class="qukelevel_table_level"><span>烈度</span> 6-</td>
-      <td colspan="2" class="quakeimg_wide"><img src="../images/quake/img_quakelevel6_m.png" alt=""></td>
+      <td colspan="2" class="quakeimg_wide"><img src="../img_quakelevel6_m.png" alt=""></td>
       <td id="quakeinfo_level6m" rowspan="2" class="quakeinfo02 quakeinfo_s">站立困难。门有时打不开。墙壁的砖块或窗玻璃可能破损或掉落。</td>
     </tr>
     <tr>
@@ -143,7 +143,7 @@
     </tr>
     <tr>
       <td rowspan="2" id="quake_level6p" class="qukelevel_table_level"><span>烈度</span> 6+</td>
-      <td colspan="2" class="quakeimg_wide"><img src="../images/quake/img_quakelevel6_p.png" alt=""></td>
+      <td colspan="2" class="quakeimg_wide"><img src="../img_quakelevel6_p.png" alt=""></td>
       <td id="quakeinfo_level6p" rowspan="2" class="quakeinfo02 quakeinfo_s">不能站立，左摇右摆。几乎所有未固定的家具发生移动，多数倾倒。</td>
     </tr>
     <tr>
@@ -152,7 +152,7 @@
     </tr>
     <tr>
       <td rowspan="2" id="quake_level7" class="qukelevel_table_level"><span>烈度</span> 7</td>
-      <td colspan="2" class="quakeimg_wide"><img src="../images/quake/img_quakelevel7.png" alt=""></td>
+      <td colspan="2" class="quakeimg_wide"><img src="../img_quakelevel7.png" alt=""></td>
       <td id="quakeinfo_level7" rowspan="2" class="quakeinfo02 quakeinfo_s">几乎所有未固定的家具发生移动或倾倒，也有些发生散落。</td>
     </tr>
     <tr>
@@ -181,11 +181,11 @@
 <!-- /footer -->
 
 
-<script src="../js/jquery.min.js"></script>
-<script src="../js/util.js"></script>
-<script src="../js/common.js"></script>
-<script src="../js/geodetic.js"></script>
-<script src="../js/quake_advisory.js"></script>
+<script src="../jmacss/jquery.min.js"></script>
+<script src="../jmacss/util.js"></script>
+<script src="../jmacss/common.js"></script>
+<script src="../jmacss/geodetic.js"></script>
+<script src="../jmacss/quake_advisory.js"></script>
 
 </div>
 
