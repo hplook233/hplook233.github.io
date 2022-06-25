@@ -1,5 +1,7 @@
+<head>
 <title>hplook的小站</title>
-<link rel="touxiang" sizes="57x57" href="../touxiang.jpg">
+</head>
+ <link rel="touxiang" sizes="57x57" href="../touxiang.jpg">
 <p><h2>-这是hplook的测试网站  -This is hplook's test website  -これはhplookのテストウエブサイト<h2></p>
 <a href="https://github.com/hplook233/hplook233.github.io">github</a>
 <p><a href="https://hplook233.github.io/">主页</a> </p><p><a href="https://hplook233.github.io/hplk.github.io/">备份页</a></p>
