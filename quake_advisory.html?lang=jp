@@ -61,18 +61,18 @@
 </div>
 <nav id="global-nav">
 <ul>
-<li><a id="tab_home" href="https://www.data.jma.go.jp/multi/index.html?lang=cn_zs">ホーム
-<li><a id="tab_warn" href="https://www.data.jma.go.jp/multi/warn/index.html?lang=cn_zs">気象警報・注意報</a></li>
-<li><a id="tab_yoho" href="https://www.data.jma.go.jp/multi/yoho/index.html?lang=cn_zs">天気予報</a></li>
-<li><a id="tab_cyclon" href="https://www.data.jma.go.jp/multi/cyclone/index.html?lang=cn_zs">台風情報</a></li>
-<li><a id="tab_cloud" target="_blank" href="https://www.jma.go.jp/bosai/multi_nowc/?lang=cn_zs">雨雲の動き</a></li>
-<li><a id="tab_kotan" target="_blank" href="https://www.jma.go.jp/bosai/multi_kaikotan/?lang=cn_zs">今後の雨</a></li>
-<li><a id="tab_sub_landslide" target="_blank" href="https://www.jma.go.jp/bosai/multi_risk/?lang=cn_zs#elements:land">危険度分布 : 土砂災害</a>
-</li><li><a id="tab_sub_inundation" target="_blank" href="https://www.jma.go.jp/bosai/multi_risk/?lang=cn_zs#elements:inund">危険度分布 : 浸水害</a>
-</li><li><a id="tab_sub_flood" target="_blank" href="https://www.jma.go.jp/bosai/multi_risk/?lang=cn_zs#elements:flood">危険度分布 : 洪水</a>
-</li><li><a id="tab_tsunami" href="https://www.data.jma.go.jp/multi/tsunami/index.html?lang=cn_zs">津波警報・注意報</a></li>
-<li><a id="tab_quake" href="https://www.data.jma.go.jp/multi/quake/index.html?lang=cn_zs">地震情報</a></li>
-<li><a id="tab_volcano" href="https://www.data.jma.go.jp/multi/volcano/index.html?lang=cn_zs">噴火警報・予報</a></li>
+<li><a id="tab_home" href="https://www.data.jma.go.jp/multi/index.html?lang=jp">ホーム
+<li><a id="tab_warn" href="https://www.data.jma.go.jp/multi/warn/index.html?lang=jp">気象警報・注意報</a></li>
+<li><a id="tab_yoho" href="https://www.data.jma.go.jp/multi/yoho/index.html?lang=jp">天気予報</a></li>
+<li><a id="tab_cyclon" href="https://www.data.jma.go.jp/multi/cyclone/index.html?lang=jp">台風情報</a></li>
+<li><a id="tab_cloud" target="_blank" href="https://www.jma.go.jp/bosai/multi_nowc/?lang=jp">雨雲の動き</a></li>
+<li><a id="tab_kotan" target="_blank" href="https://www.jma.go.jp/bosai/multi_kaikotan/?lang=jp">今後の雨</a></li>
+<li><a id="tab_sub_landslide" target="_blank" href="https://www.jma.go.jp/bosai/multi_risk/?lang=jp#elements:land">危険度分布 : 土砂災害</a>
+</li><li><a id="tab_sub_inundation" target="_blank" href="https://www.jma.go.jp/bosai/multi_risk/?lang=jp#elements:inund">危険度分布 : 浸水害</a>
+</li><li><a id="tab_sub_flood" target="_blank" href="https://www.jma.go.jp/bosai/multi_risk/?lang=jp#elements:flood">危険度分布 : 洪水</a>
+</li><li><a id="tab_tsunami" href="https://www.data.jma.go.jp/multi/tsunami/index.html?lang=jp">津波警報・注意報</a></li>
+<li><a id="tab_quake" href="https://www.data.jma.go.jp/multi/quake/index.html?lang=jp">地震情報</a></li>
+<li><a id="tab_volcano" href="https://www.data.jma.go.jp/multi/volcano/index.html?lang=jp">噴火警報・予報</a></li>
 </ul>
 </nav>
 </div>
@@ -83,8 +83,8 @@
 
 <div class="breadcrumb">
 <ul>
-<li><a id="breadcrumb_home" href="https://www.data.jma.go.jp/multi/index.html?lang=cn_zs">ホーム</a></li>
-<li><a id="breadcrumb_list" href="https://www.data.jma.go.jp/multi/quake/index.html?lang=cn_zs">地震情報</a></li>
+<li><a id="breadcrumb_home" href="https://www.data.jma.go.jp/multi/index.html?lang=jp">ホーム</a></li>
+<li><a id="breadcrumb_list" href="https://www.data.jma.go.jp/multi/quake/index.html?lang=jp">地震情報</a></li>
 <li id="breadcrumb_advisory">震度の解説</li>
 </ul>
 </div>
