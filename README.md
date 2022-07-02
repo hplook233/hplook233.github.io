@@ -2,12 +2,12 @@
 <title>hplook的小站</title>
 </head>
  <link rel="touxiang" sizes="57x57" href="../touxiang.jpg">
-<p><h2>-这是hplook的测试网站  -This is hplook's test website  -これはhplookのテストウエブサイト<h2></p>
+<p><h2>-这是hplook的测试网站</h2></p>
 <a href="https://github.com/hplook233/hplook233.github.io">github</a>
 <p><a href="https://hplook233.github.io/">主页</a> </p><p><a href="https://hplook233.github.io/hplk.github.io/">备份页</a></p>
  <p><a href="https://hplook233.github.io/jntm/" target="_blank">鸡你太美</a></p>
  <p>我的头像:</p>
-<p><img src="https://raw.githubusercontent.com/hplook233/hplk.github.io/master/photos/touxiang.jpg" alt="Pulpit roke" width="160" height="160" alt="我的头像"></p>
+<p><img src="./touxiang.jpg" alt="Pulpit roke" width="160" height="160" alt="我的头像"></p>
 <hr>
  <p>一些歌曲</p>
  <p>1.Josh Vietti - A Thousand Miles</p>
@@ -39,4 +39,4 @@
 <p><a href="https://hplook233.github.io/videosmenu2022/" target="_blank">2022</a> </p>
 <hr>
 <p><a href="https://hplook233.github.io/quake_advisory.html" target="_blank">日本气象厅（jma）烈度说明备份页</a></p>
-<p><a href="https://hplook233.github.io/quake_advisory_jp.html" target="_blank">日本气象厅（jma）烈度说明备份页/日本語</a></p>
+<p><a href="https://hplook233.github.io/quake_advisory-jp.html" target="_blank">日本气象厅（jma）烈度说明备份页/日本語</a></p>
