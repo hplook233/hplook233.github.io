@@ -2,7 +2,7 @@
 <title>hplook的小站</title>
 </head>
  <link rel="touxiang" sizes="57x57" href="../touxiang.jpg">
-<p><h2>-这是hplook的测试网站</h2></p>
+<p><h2>这是hplook的测试网站</h2></p>
 <a href="https://github.com/hplook233/hplook233.github.io">github</a>
 <p><a href="https://hplook233.github.io/">主页</a> </p><p><a href="https://hplook233.github.io/hplk.github.io/">备份页</a></p>
  <p><a href="https://hplook233.github.io/jntm/" target="_blank">鸡你太美</a></p>
@@ -36,8 +36,8 @@
 <p><a href="https://hplook233.github.io/videosmenu2021/" target="_blank">2021</a> </p>
 <p><a href="https://hplook233.github.io/videosmenu2022/" target="_blank">2022</a> </p>
 <hr>
-<p><h2>歌曲（带歌词）</h2></p>
+<h2>歌曲（带歌词）</h2>
 <a href="https://hplook233.github.io/music/TeresaTeng/manburenshenglu.html">邓丽君-漫步人生路</a></p>
-<br>
+<hr>
 <p><a href="https://hplook233.github.io/quake_advisory.html" target="_blank">日本气象厅（jma）烈度说明备份页</a></p>
 <p><a href="https://hplook233.github.io/quake_advisory-jp.html" target="_blank">日本气象厅（jma）烈度说明备份页/日本語</a></p>
