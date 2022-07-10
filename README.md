@@ -39,5 +39,4 @@
 <h2>歌曲（带歌词）</h2>
 <a href="https://hplook233.github.io/music/TeresaTeng/manburenshenglu.html">邓丽君-漫步人生路</a></p>
 <hr>
-<p><a href="https://hplook233.github.io/quake_advisory.html" target="_blank">日本气象厅（jma）烈度说明备份页</a></p>
-<p><a href="https://hplook233.github.io/quake_advisory-jp.html" target="_blank">日本气象厅（jma）烈度说明备份页/日本語</a></p>
+<a href="https://hplook233.github.io/copy.html" target="_blank">被我移植到本站的网站</a>
